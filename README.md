@@ -1,6 +1,4 @@
 # IA Scientific Computing
 ## Computer Science, Cambridge, 2019/2020
 
-* Ticks 2 and 3
-* Data scraping tips
-* Example data analyses (will be uploaded from time to time)
+[https://www.cl.cam.ac.uk/teaching/1920/SciComp/materials.html](https://www.cl.cam.ac.uk/teaching/1920/SciComp/materials.html)
