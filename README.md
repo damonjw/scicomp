@@ -1,6 +1,6 @@
 # IA Scientific Computing
 ## Computer Science, Cambridge, 2019/2020
 
-* (on Monday) Assignments 2 and 3
-* (on Monday) Data scraping tips
-* (ongoing) Example data analyses
+* Ticks 2 and 3
+* Data scraping tips
+* Example data analyses (will be uploaded from time to time)
