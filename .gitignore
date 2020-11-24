@@ -3,3 +3,4 @@ __pycache__
 .ipynb_checkpoints
 flood.csv
 stop-and-search.csv
+*.csv
