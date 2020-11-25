@@ -4,3 +4,4 @@ __pycache__
 flood.csv
 stop-and-search.csv
 *.csv
+debug.log
