@@ -14340,6 +14340,22 @@ short aliases so we can write e.g. np.foo rather than numpy.foo.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>If you get an error message like</p>
+<p><pre style="color:red;">
+----> 1 import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+</pre>
+it means you need to install the package. Install it from within Jupyter by running</p>
+<div class="highlight"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">numpy</span>
+</pre></div>
+<p>The relevant packages have been preinstalled on hub.cl.cam.ac.uk, but on other platforms you may need to install packages yourself. 
+If you're running on your own machine, you only need to do this once. If you're running on Google Colab, for 
+    example, you may need to do it over and over again, whenever the system allocates you a fresh server.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="2.-Vectorized-thinking">2. Vectorized thinking<a class="anchor-link" href="#2.-Vectorized-thinking">&#182;</a></h2><p>We saw Python lists in section 1. We can of course store numbers in Python lists: a list to store a
 vector, a list of lists to store a matrix, and so on. For scientific computing, this is not a good idea.</p>
 <ul>
