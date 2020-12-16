@@ -14384,7 +14384,7 @@ take the subset of rows where <code>event_type</code> is 0 or 1, and then define
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Question (p6)</strong> from section 6.2. With the dataframe from the last question, add a column Δte that gives _within each event<em>type</em> the time since the last event of that type. Finally, sort the data by event_type and time, using <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html"><code>sort_values</code></a>.
+<p><strong>Question (p6)</strong> from section 6.2. With the dataframe from the last question, add a column Δte that gives <em>within each event_type</em> the time since the last event of that type. Finally, sort the data by event_type and time, using <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html"><code>sort_values</code></a>.
 <code>jupyter</code></p>
 
 </div>
@@ -14668,8 +14668,8 @@ $$</p>
 q = GRADER.fetch_question('q9')
 submit = pandas.DataFrame(q.rows).merge(ans)[q.want_cols]
 GRADER.submit_answer(q, submit)</code></pre>
-<p>_This is a huge simplification. There are differences in how countries define "death due to COVID", and there
-are surely differences in standard-of-care, and in demographics. Nonetheless, the plot below shows that many countries have broadly similar case fataility rates in the second wave, so <code>case_multiplier</code> is probably measuring something real; and anyway, if we only use it to compare the two waves within a single country, it doesn't matter that different countries use different definitions. It would be better to use a smoothly-varying function rather than just two levels (a multipler for the 1st, a constant 1 for the 2nd wave), but this takes more work._</p>
+<p><em>This is a huge simplification. There are differences in how countries define "death due to COVID", and there
+are surely differences in standard-of-care, and in demographics. Nonetheless, the plot below shows that many countries have broadly similar case fataility rates in the second wave, so <code>case_multiplier</code> is probably measuring something real; and anyway, if we only use it to compare the two waves within a single country, it doesn't matter that different countries use different definitions. It would be better to use a smoothly-varying function rather than just two levels (a multipler for the 1st, a constant 1 for the 2nd wave), but this takes more work.</em></p>
 <p><img src="res/tick2_cfr2.svg" style="width:30em"/></p>
 
 </div>
