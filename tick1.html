@@ -14442,7 +14442,7 @@ that truncates the vector returned by <code>random_sizes</code>, and reduces the
 
 <pre><code>q = GRADER.fetch_question('q1')
 ans = trunc_sizes(q.s)
-GRADER.submit_answer(q, ans)</code></pre>
+GRADER.submit_answer(q, np.array(ans))</code></pre>
 
 </div>
 </div>
